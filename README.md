@@ -12,9 +12,9 @@ A command-line tool for refining prompts using local Ollama models (gemma3:4b, q
 
 3. Download the scripts
 ```bash
-  wget https://raw.githubusercontent.com/yourusername/promptyng/main/promptyng.py
-  chmod +x promptyng.py
-  sudo ln -s $(pwd)/promptyng.py /usr/local/bin/promptyng
+wget https://raw.githubusercontent.com/trunghieu-automate/ollama_promptyng_cli/refs/heads/main/promptyng_cli.py
+chmod +x promptyng.py
+sudo ln -s $(pwd)/promptyng.py /usr/local/bin/promptyng
 ```
 
 ## Usage
