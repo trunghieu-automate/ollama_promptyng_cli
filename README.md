@@ -10,13 +10,17 @@ A command-line tool for refining prompts using local Ollama models (gemma3:4b, q
    pip install ollama
 ```
 
-3. Download the scripts
+3. Download the scripts and setup
 ```bash
 wget https://raw.githubusercontent.com/trunghieu-automate/ollama_promptyng_cli/refs/heads/main/promptyng_cli.py
 chmod +x promptyng.py
 sudo ln -s $(pwd)/promptyng.py /usr/local/bin/promptyng
 ```
 
+For mac user
+```
+echo "alias promptyng='python3 <promptyng_cli.py location>'" >> ~/.zshrc
+```
 ## Usage
 ### Basic Prompt Refinement
 ```bash
